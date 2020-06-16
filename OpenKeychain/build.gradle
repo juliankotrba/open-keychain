@@ -6,6 +6,8 @@ dependencies {
     // NOTE: Always use fixed version codes not dynamic ones, e.g. 0.7.3 instead of 0.7.+, see README for more information
     // NOTE: libraries are pinned to a specific build, see below
 
+    implementation "io.vavr:vavr:0.10.3"
+
     // from local Android SDK
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.1.0'
